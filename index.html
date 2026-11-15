@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <!-- SECTION 1: NAVBAR + HERO -->
+  <!--NAVBAR + HERO -->
   <section class="hero-section" id="home">
     <header class="navbar">
       <a href="#home" class="logo" aria-label="Oopsie Corner home">OOPSIE<span>CORNER!</span></a>
@@ -25,17 +25,17 @@
         <a href="#videos">VIDEOS</a>
         <a href="#audio">AUDIO</a>
       </nav>
-      <div class="search-box">
-    <input
-        type="search"
-        id="siteSearch"
-        placeholder="Search memes, videos, audio..."
-        aria-label="Search website content"
-    >
-    <button id="searchBtn" aria-label="Search">
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </button>
+     
+<div class="video-search">
+  <input
+    type="search"
+    id="videoSearch"
+    placeholder="Search funny videos..."
+    aria-label="Search videos"
+  >
+  <button type="button" id="clearSearch">⌕</button>
 </div>
+
 
       
     </header>
@@ -92,59 +92,335 @@
     </main>
   </section>
 
-  <!-- SECTION 2: IMAGE MOSAIC -->
-  <section class="mosaic-section" id="mosaic">
-    <div class="section-intro">
-      <p class="eyebrow">THE MEME ZONE</p>
-      <h2 class="section-heading">EXPLORE THE <span>OOPSIE</span> WORLD</h2>
-      <p class="section-subtitle">A little randomness. A lot of laughter.</p>
-    </div>
+ <!-- IMAGE MOSAIC -->
+<section class="mosaic-section" id="mosaic">
 
-    <div class="mosaic">
-      <a class="mosaic-tile tile-01" href="#mosaic" aria-label="Meme tile 1"><img src="img/1.jpeg" alt="Funny meme 1" loading="lazy"></a>
-      <a class="mosaic-tile tile-02" href="#mosaic" aria-label="Meme tile 2"><img src="img/2.jpeg" alt="Funny meme 2" loading="lazy"></a>
-      <a class="mosaic-tile tile-03" href="#mosaic" aria-label="Meme tile 3"><img src="img/3.jpeg" alt="Funny meme 3" loading="lazy"></a>
-      <a class="mosaic-tile tile-04" href="#mosaic" aria-label="Meme tile 4"><img src="img/4.jpeg" alt="Funny meme 4" loading="lazy"></a>
-      <a class="mosaic-tile tile-05" href="#mosaic" aria-label="Meme tile 5"><img src="img/5.jpeg" alt="Funny meme 5" loading="lazy"></a>
-      <a class="mosaic-tile tile-06" href="#mosaic" aria-label="Meme tile 6"><img src="img/6.png" alt="Funny meme 6" loading="lazy"></a>
-      <a class="mosaic-tile tile-07" href="#mosaic" aria-label="Meme tile 7"><img src="img/7.jpeg" alt="Funny meme 7" loading="lazy"></a>
-      <a class="mosaic-tile tile-08" href="#mosaic" aria-label="Meme tile 8"><img src="img/8.jpeg" alt="Funny meme 8" loading="lazy"></a>
-      <a class="mosaic-tile tile-09" href="#mosaic" aria-label="Meme tile 9"><img src="img/9.jpeg" alt="Funny meme 9" loading="lazy"></a>
-      <a class="mosaic-tile tile-10" href="#mosaic" aria-label="Meme tile 10"><img src="img/10.jpg" alt="Funny meme 10" loading="lazy"></a>
-      <a class="mosaic-tile tile-11" href="#mosaic" aria-label="Meme tile 11"><img src="img/11.jpeg" alt="Funny meme 11" loading="lazy"></a>
-      <a class="mosaic-tile tile-12" href="#mosaic" aria-label="Meme tile 12"><img src="img/12.jpeg" alt="Funny meme 12" loading="lazy"></a>
+  <div class="section-intro">
+    <p class="eyebrow">THE MEME ZONE</p>
+    <h2 class="section-heading">EXPLORE THE <span>OOPSIE</span> WORLD</h2>
+    <p class="section-subtitle">A little randomness. A lot of laughter.</p>
+  </div>
+ 
+   
+<section class="image-marquee">
 
-      <div class="hexagon" aria-label="Oopsie Corner meme collection">
-        <div class="hexagon-inner">Oopsie Corner <br><span>meme collection</span>
+  <div class="marquee-track">
+
+    <img src="img/25.jpeg" alt="Funny moment">
+    <img src="img/26.jpeg" alt="Funny moment">
+    <img src="img/27.jpeg" alt="Funny moment">
+    <img src="img/28.jpeg" alt="Funny moment">
+    <img src="img/29.jpeg" alt="Funny moment">
+    <img src="img/30.jpeg" alt="Funny moment">
+
+    <!-- Repeated images for continuous scrolling -->
+
+    <img src="img/31.jpg" alt="Funny moment">
+    <img src="img/32.jpg" alt="Funny moment">
+    <img src="img/33.jpg" alt="Funny moment">
+    <img src="img/38.jpg" alt="Funny moment">
+    <img src="img/39jpg" alt="Funny moment">
+    <img src="img/40.jpg" alt="Funny moment">
+
+  </div>
+
+</section>
+
+  <div class="mosaic">
+
+    <a class="mosaic-tile tile-01" href="#mosaic" aria-label="Meme tile 1">
+      <img src="img/1.jpeg" alt="Funny meme 1" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-02" href="#mosaic" aria-label="Meme tile 2">
+      <img src="img/2.jpeg" alt="Funny meme 2" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-03" href="#mosaic" aria-label="Meme tile 3">
+      <img src="img/3.jpeg" alt="Funny meme 3" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-04" href="#mosaic" aria-label="Meme tile 4">
+      <img src="img/4.jpeg" alt="Funny meme 4" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-05" href="#mosaic" aria-label="Meme tile 5">
+      <img src="img/5.jpeg" alt="Funny meme 5" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-06" href="#mosaic" aria-label="Meme tile 6">
+      <img src="img/6.png" alt="Funny meme 6" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-07" href="#mosaic" aria-label="Meme tile 7">
+      <img src="img/7.jpeg" alt="Funny meme 7" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-08" href="#mosaic" aria-label="Meme tile 8">
+      <img src="img/8.jpeg" alt="Funny meme 8" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-09" href="#mosaic" aria-label="Meme tile 9">
+      <img src="img/9.jpeg" alt="Funny meme 9" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-10" href="#mosaic" aria-label="Meme tile 10">
+      <img src="img/10.jpg" alt="Funny meme 10" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-11" href="#mosaic" aria-label="Meme tile 11">
+      <img src="img/11.jpeg" alt="Funny meme 11" loading="lazy">
+    </a>
+
+    <a class="mosaic-tile tile-12" href="#mosaic" aria-label="Meme tile 12">
+      <img src="img/12.jpeg" alt="Funny meme 12" loading="lazy">
+    </a>
+
+    <div class="hexagon" aria-label="Oopsie Corner meme collection">
+      <div class="hexagon-inner">
+        Oopsie Corner
+        <span>meme collection</span>
       </div>
     </div>
-  </section>
 
-  <!-- SECTION 3: VIDEO GRID -->
-  <section class="video-section" id="videos">
-    <div class="video-header">
-      <div>
-        <p class="eyebrow">PRESS PLAY, FORGET YOUR PROBLEMS</p>
-        <h2>WATCH SOMETHING <span>HILARIOUS</span></h2>
-      </div>
-      <p>Short videos. Big reactions.</p>
+  </div>
+
+
+  <section class="image-marquee">
+
+  <div class="marquee-track">
+
+    <img src="img/13.jpeg" alt="Funny moment">
+    <img src="img/14.jpeg" alt="Funny moment">
+    <img src="img/15.jpeg" alt="Funny moment">
+    <img src="img/16.jpeg" alt="Funny moment">
+    <img src="img/17.jpeg" alt="Funny moment">
+    <img src="img/18.jpeg" alt="Funny moment">
+
+    <!-- Repeated images for continuous scrolling -->
+
+    <img src="img/19.jpeg" alt="Funny moment">
+    <img src="img/20.jpeg" alt="Funny moment">
+    <img src="img/21.jpeg" alt="Funny moment">
+    <img src="img/22.jpeg" alt="Funny moment">
+    <img src="img/23.jpeg" alt="Funny moment">
+    <img src="img/24.jpeg" alt="Funny moment">
+
+  </div>
+
+</section>
+</section>
+
+
+<!-- IMAGE VIEWER -->
+<dialog class="image-dialog" id="imageDialog" aria-label="Meme image viewer">
+
+  <button class="image-close" id="imageClose" type="button"
+          aria-label="Close image">✕</button>
+
+  <button class="image-prev" id="imagePrev" type="button"
+          aria-label="Previous image">❮</button>
+
+  <div class="image-view-content">
+    <img id="fullImage" src="" alt="Funny meme">
+    <p id="imageCounter">1 / 12</p>
+  </div>
+
+  <button class="image-next" id="imageNext" type="button"
+          aria-label="Next image">❯</button>
+
+</dialog>
+
+  
+
+ 
+
+<!-- VIDEO SECTION -->
+<section class="video-section" id="videos">
+  <div class="video-header">
+    <div>
+      <p class="eyebrow">PRESS PLAY, FORGET YOUR PROBLEMS</p>
+      <h2>WATCH SOMETHING <span>HILARIOUS</span></h2>
     </div>
+    <p>Short videos. Big reactions.</p>
+  </div>
 
-    <div class="video-grid">
-      <button class="video-card" type="button" data-video="video/1.mp4" aria-label="Play funny video 1"><span class="video-tag">OOPSIE MOMENT 01</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/2.mp4" aria-label="Play funny video 2"><span class="video-tag">OOPSIE MOMENT 02</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/3.mp4" aria-label="Play funny video 3"><span class="video-tag">OOPSIE MOMENT 03</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/4.mp4" aria-label="Play funny video 4"><span class="video-tag">OOPSIE MOMENT 04</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/5.mp4" aria-label="Play funny video 5"><span class="video-tag">OOPSIE MOMENT 05</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/6.mp4" aria-label="Play funny video 6"><span class="video-tag">OOPSIE MOMENT 06</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/7.mp4" aria-label="Play funny video 7"><span class="video-tag">OOPSIE MOMENT 07</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/8.mp4" aria-label="Play funny video 8"><span class="video-tag">OOPSIE MOMENT 08</span><span class="play-icon"></span></button>
-      <button class="video-card" type="button" data-video="video/9.mp4" aria-label="Play funny video 9"><span class="video-tag">OOPSIE MOMENT 09</span><span class="play-icon"></span></button>
+  <div class="video-categories">
 
+    <!-- FUNNY VIBES -->
+    <section class="video-category" id="funny-vibes">
+      <div class="category-heading">
+        <div><span class="category-number">01</span><h3>FUNNY VIBES</h3></div>
+        <span class="video-count">13 VIDEOS</span>
       </div>
-    </div>
-  </section>
+      <div class="video-grid funny-vibes-grid">
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/11.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/12.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/13.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/14.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/15.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/16.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/17.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/18.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/19.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/20.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/21.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/22.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/23.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+      </div>
+    </section>
 
+    <!-- EXPECTATION VS REALITY -->
+    <section class="video-category" id="expectation-reality">
+      <div class="category-heading">
+        <div><span class="category-number">02</span><h3>EXPECTATION VS REALITY</h3></div>
+        <span class="video-count">10 VIDEOS</span>
+      </div>
+      <div class="video-grid expectation-grid">
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/32.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/33.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/34.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/35.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/36.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/37b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/38b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/39b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/40b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/41b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+      </div>
+    </section>
+
+    <!-- PROGRAMMING MEMES -->
+    <section class="video-category" id="programming-memes">
+      <div class="category-heading">
+        <div><span class="category-number">03</span><h3>PROGRAMMING MEMES</h3></div>
+        <span class="video-count">10 VIDEOS</span>
+      </div>
+      <div class="video-grid programming-grid">
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/25.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/26.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/27.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/28.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/29.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/30.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/31.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/32b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/33b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/34b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+      </div>
+    </section>
+
+    <!-- CHILL WITH ANIMAL VIBE -->
+    <section class="video-category" id="animal-vibes">
+      <div class="category-heading">
+        <div><span class="category-number">04</span><h3>CHILL WITH ANIMAL VIBE</h3></div>
+        <span class="video-count">10 VIDEOS</span>
+      </div>
+      <div class="video-grid animal-grid">
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/8b.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/2.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/3.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/4.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/5.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/6.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/7.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/8.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/9.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/10.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+      </div>
+    </section>
+
+    <!-- SCHOOL MEMES -->
+    <section class="video-category" id="school-memes">
+      <div class="category-heading">
+        <div><span class="category-number">05</span><h3>SCHOOL MEMES</h3></div>
+        <span class="video-count">16 VIDEOS</span>
+      </div>
+      <div class="video-grid school-grid">
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/37.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/38.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/39.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/40.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/41.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/42.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/1.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/43.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/44.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/45.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/46.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/47.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/48.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/49.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/50.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/51.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+      </div>
+    </section>
+
+    <!-- FUNNY LIFE MEMES -->
+    <section class="video-category" id="funny-life-memes">
+      <div class="category-heading">
+        <div><span class="category-number">06</span><h3>FUNNY LIFE MEMES</h3></div>
+        <span class="video-count">38 VIDEOS</span>
+      </div>
+      <div class="video-grid life-grid">
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/52.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/53.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/56.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/57.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/58.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/59.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/61.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/63.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/67.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/69.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/70.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/71.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/72.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/73.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/74.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/77.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/78.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/79.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/80.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/81.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/82.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/83.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/85.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/87.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/88.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+        <article class="video-card"><div class="video-preview"><video preload="auto" muted playsinline aria-hidden="true"><source src="video/89.mp4" type="video/mp4"></video><button class="video-play" type="button">▶</button></div><div class="video-actions"><button class="like-btn">♡ <span>Like</span></button><button class="comment-btn">Comment</button><button class="share-btn">Share ↗</button></div></article>
+      </div>
+    </section>
+
+  </div>
+</section>
+
+<!-- VIDEO PLAYER -->
+<dialog class="video-dialog" id="videoDialog">
+  <div class="video-dialog-inner">
+    <button class="dialog-close" id="closeVideo" type="button" aria-label="Close video">×</button>
+    <video id="videoPlayer" controls playsinline></video>
+    <div class="player-controls">
+      <button id="previousVideo" type="button">← Previous</button>
+      <span id="videoPosition">VIDEO 1</span>
+      <button id="nextVideo" type="button">Next →</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- COMMENT DIALOG -->
+<dialog class="comment-dialog" id="commentDialog">
+  <div class="comment-inner">
+    <button class="dialog-close" id="closeComments" type="button" aria-label="Close comments">×</button>
+    <p class="eyebrow">JOIN THE FUN</p>
+    <h3>DROP A COMMENT</h3>
+    <div class="comment-list" id="commentList"></div>
+    <form class="comment-form" id="commentForm">
+      <input type="text" id="commentInput" placeholder="Write something funny..." maxlength="250" required>
+      <button type="submit">POST</button>
+    </form>
+  </div>
+</dialog>
  
  
 <!-- AUDIO SECTION -->
@@ -220,8 +496,6 @@
       </button>
       <h3>CAT LAUGHTER</h3>
     </div>
-
-    <!-- NEW AUDIO BUTTONS -->
 
     <div class="audio-item">
       <button class="audio-button tone-10" data-audio="audio/10.mp3" aria-label="Play Oh My God">
@@ -315,15 +589,6 @@
     <small>© <span id="year"></span> OOPSIE CORNER. MADE FOR THE LOLS.</small>
   </footer>
 
-  <!-- Video player dialog -->
-  <dialog class="video-dialog" id="videoDialog" aria-label="Video player">
-    <div class="dialog-top">
-      <span>OOPSIE PLAYER</span>
-      <button class="dialog-close" type="button" aria-label="Close video">✕</button>
-    </div>
-    <video id="videoPlayer" controls playsinline></video>
-    <p class="video-message" id="videoMessage">Enjoy the moment.</p>
-  </dialog>
-
+  
 </body>
 </html>
